@@ -1,0 +1,11 @@
+{
+  "name": "api.inda.link",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "csso": "^4.0.2",
+    "faunadb": "^2.11.1",
+    "html-minifier": "^4.0.0"
+  }
+}
