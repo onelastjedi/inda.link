@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/*.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/",
+      "dest": "src/index.js"
+    },
+    {
+      "src": "/.*",
+      "dest": "src/link.js"
+    }
+  ],
+  "env": {
+    "FAUNADB_PUBLIC_KEY": "fnADl0DQE2ACAL17eaLhT9wGs_GnJ710GL7ogN9_"
+  }
+}
