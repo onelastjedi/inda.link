@@ -1,0 +1,69 @@
+.hero {
+  text-align: left;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 900;
+  margin: 20px 0 0 0;
+}
+
+.wrapper {
+  position: relative;
+  display: grid;
+  grid-gap: 40px;
+  align-items: center;
+  justify-items: center;
+  padding: 70px 30px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.wrapper a {
+  position: relative;
+  display: block;
+  width: 320px;
+  transform: translateZ(0);
+  transition: all .13s ease-out;
+}
+
+.wrapper a:hover {
+  transform: scale(1.02);
+}
+
+.wrapper .email {
+  display: inline;
+  text-decoration: none;
+  color: #666;
+  border-bottom: 1px solid #eaeaea;
+  font-weight: 100;
+  font-size: 12px
+}
+
+.wrapper .email:hover {
+  color: #333;
+}
+
+.orig {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 360px;
+  z-index: 2;
+  border-radius: 1.4vh;
+}
+
+.shadow {
+  padding-top: 60px;
+  margin-top: -60px;
+  width: 100%;
+  max-width: 360px;
+  filter: blur(25px) saturate(200%);
+  -webkit-filter: blur(25px) saturate(200%);
+  transform: translateY(2vh) translateZ(0);
+  opacity: .85;
+  z-index: 1;
+}
