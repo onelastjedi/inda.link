@@ -2,6 +2,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: 0;
 }
 
 h1 {
@@ -9,7 +10,6 @@ h1 {
   line-height: 34px;
   font-weight: 900;
   margin: 20px 0 30px 0;
-  color: #580304;
 }
 
 h2 {
@@ -19,6 +19,8 @@ h2 {
   font-weight: normal;
   opacity: .7;
   color: 222;
+  position: relative;
+  z-index: 1;
 }
 
 a {
