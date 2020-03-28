@@ -4,6 +4,7 @@ import url from 'url'
 import head from './components/linkHead'
 import footer from './components/linkFooter'
 import cover from './components/linkCover'
+import notFound from './components/404'
 
 // Platforms links
 function getPlatform (string, platforms) {
@@ -59,6 +60,6 @@ export default async ({ headers, url }, res) => {
   }
 
   catch (error) {
-    res.status(404).send('<h1>404</h1>')
+    res.status(404).send(notFound())
   }
 }

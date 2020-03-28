@@ -1,0 +1,31 @@
+.kvika {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 34px;
+  font-weight: 900;
+  margin: 20px 0 30px 0;
+  color: #580304;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  font-weight: normal;
+  opacity: .7;
+  color: 222;
+}
+
+a {
+  color: #0064a8;
+  transition: color .2s ease-out;
+}
+
+a:hover {
+  color: #a03000;
+}
